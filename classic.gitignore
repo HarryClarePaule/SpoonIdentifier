@@ -1,0 +1,18 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore local development settings
+.env
+
+# Ignore virtual environment directories
+venv/
+env/
+*.venv/
+
+# Ignore pipenv files
+Pipfile.lock
+
+# Ignore logs and cache files
+*.log
+*.cache
