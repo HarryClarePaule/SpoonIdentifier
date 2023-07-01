@@ -5,21 +5,6 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 loaded_model = load_model('spoon_identifier_model.h5')
 
-# # Load the image and preprocess it
-# image_path = 'ValidationImages/cuddle2.jpg'
-# image = load_img(image_path, target_size=(224, 224))
-# image_array = img_to_array(image) / 255.0
-# image_batch = np.expand_dims(image_array, axis=0)
-
-# # Make a prediction using the loaded model
-# prediction = loaded_model.predict(image_batch)
-
-# # Interpret the prediction
-# if prediction[0] > 0.5:
-#     print("This is a spoon.")
-# else:
-#     print("This is not a spoon.")
-
 def classify_images(model, validation_images_dir):
     image_files = os.listdir(validation_images_dir)
     spoon_count = 0

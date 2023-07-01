@@ -50,20 +50,3 @@ model.fit(train_generator, epochs=20)
 
 # Save the model
 model.save('spoon_identifier_model.h5')
-
-# # Load a test image and make a prediction
-# def predict_spoon(image_path):
-#     img = cv2.imread(image_path)
-#     img = cv2.resize(img, (224, 224))
-#     img = img / 255.0
-#     img = np.expand_dims(img, axis=0)
-
-#     prediction = model.predict(img)
-#     if prediction > 0.5:
-#         return "It's a spoon!"
-#     else:
-#         return "It's not a spoon!"
-
-# test_image_path = 'testimage/spoon.jpg'
-# result = predict_spoon(test_image_path)
-# print(result)
