@@ -1,6 +1,6 @@
 # SpoonIdentifier
 
-Weclome to the very handy Spoon identifier programme!
+Welcome to the very handy Spoon identifier programme!
 
 This programme consist of multiple scripts:
 1. spoon_identifier.py - in this script the spoon_identifier_model.h5 has been created and trained using a data set of images
