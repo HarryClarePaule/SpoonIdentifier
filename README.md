@@ -1,4 +1,4 @@
-# SpoonIdentifier
+# Spoon Identifier
 
 Welcome to the very handy Spoon identifier programme!
 
