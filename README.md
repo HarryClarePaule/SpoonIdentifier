@@ -1,8 +1,8 @@
 # Spoon Identifier
 
-Welcome to the very handy Spoon identifier programme!
+Welcome to the very handy Spoon identifier program!
 
-This programme consist of multiple scripts:
+This program consist of multiple scripts:
 1. spoon_identifier.py - in this script the spoon_identifier_model.h5 has been created and trained using a data set of images
 2. main.py - in this script the model has been fed a series of validation images to test the accuracy of the model
 3. app.py - in this script a simple flask web application has been developed which takes the html files from thee "templates" folder to allow someone to upload a picture for the model to predict if it is a spoon or not. The "upload" folder serves to save images users uplaod the the flask application.
